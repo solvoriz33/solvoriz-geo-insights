@@ -7,7 +7,7 @@ export function ThemeChooser() {
 
   return (
     <Dialog open={!hasChosen}>
-      <DialogContent className="sm:max-w-md" showCloseButton={false}>
+      <DialogContent className="sm:max-w-md [&>button]:hidden">
         <DialogHeader>
           <DialogTitle>Choose your appearance</DialogTitle>
           <DialogDescription>
